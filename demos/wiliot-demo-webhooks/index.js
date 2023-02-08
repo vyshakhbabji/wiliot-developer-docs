@@ -37,18 +37,12 @@ function startNodeServer() {
     });
 
     app.post('/webhook', (req, res) => {
-
         console.log('Webhook received');
-
-        req.on('data', function (data) {
-            console.log('Data received: ' + data);
+        req.on('data', function (event) {
+            console.log('Event received: \n' + event);
         });
-
-
         console.log('Done')
         res.send('Hello World!');
-
-
     });
 
     app.listen(port, () => {
@@ -62,8 +56,6 @@ async function start() {
     await init();
     startNodeServer();
     console.log('Your webhookURL is: ', webhookUrl);
-
-
 }
 
 start().then(r => {
