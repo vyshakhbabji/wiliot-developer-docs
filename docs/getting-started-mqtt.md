@@ -47,12 +47,12 @@ The information in the tables were last updated on April 7th 2020.
 | CloudMQTT | Custom Port | Custom Port | Custom Port    | NOT SURE          | YES                | 0, 1, 2    | 
 
 
-## Registering an Application End point in management portal
+## Registering an application endpoint in management portal
 
 - Ensure that you have “Admin” access for the account you manage on Wiliot management portal
 - Go to https://platform.wiliot.com
 - Click on the Connections option
-- Click on the Add New  button\
+- Click on the Add New  button
 - Give the application a name
 
 ![mqtt1.png](screenshots%2Fmqtt1.png)
