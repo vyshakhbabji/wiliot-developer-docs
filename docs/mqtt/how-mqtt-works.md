@@ -14,7 +14,7 @@ making it well-suited for resource-constrained devices such as sensors and embed
 In MQTT, messages are categorized and sent to specific "topics." Subscribers can filter the messages they receive based 
 on the topics they are interested in.
 
-### Publish/Subscribe: 
+### Publish/Subscribe
 
 There are two types of entities in MQTT: publishers and subscribers. Publishers send messages to a topic, and subscribers 
 receive messages sent to the topics they are interested in.
