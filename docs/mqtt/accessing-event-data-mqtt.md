@@ -8,7 +8,7 @@ access the asset related information from the cloud.
 Referred from https://mntolia.com/10-free-public-private-mqtt-brokers-for-testing-prototyping/ article, please find below a list of free to use public
 and private MQTT brokers
 
-## Private MQTT Broker 
+## Private MQTT Broker
 
 In a private broker, only devices that you set can publish and subscribe to the topics on the broker. You should use this
 for production & prototyping.
@@ -55,10 +55,10 @@ The information in the tables were last updated on April 7th 2020.
 - Click on the Add New  button
 - Give the application a name
 
-![mqtt1.png](screenshots%2Fmqtt1.png)
+![mqtt1.png](..%2Fscreenshots%2Fmqtt1.png)
 
 - Under Endpoint category choose MQTT as Type
 - Click Next
 - Choose one of the free to use URL from the tables above and enter it along with the TCP port number in the URL textbox ex: mqtt://test.mosquitto.org:1883
 
-![mqtt2.png](screenshots%2Fmqtt2.png)
+![mqtt2.png](..%2Fscreenshots%2Fmqtt2.png)

@@ -20,14 +20,14 @@ making it easy to test and demonstrate webhooks.
 $ {PATH_TO_DOWNLOADED_FILE} ./ngrok http 3000
 ```
 
-4. Copy the generated url and use it as a webhook url in the  [setting-up-webhook-connection](setting-up-webhook-connection.md) process
+4. Copy the generated url and use it as a webhook url in the  [setting-up-webhook-connection](webhooks/Setting-up-webhook-connection.md) process
 
 
 Here is an example of the output you should see in the terminal:
 
-![ngrok-terminal.png](screenshots%2Fngrok-terminal.png)
+![ngrok-terminal.png](..%2Fscreenshots%2Fngrok-terminal.png)
 
 
 You can inspect the events sent to your webhook url by using the ngrok dashboard at http://localhost:{PORT}/inspect/http
 
-![ngrok_-_Inspect.png](screenshots%2Fngrok_-_Inspect.png)
+![ngrok_-_Inspect.png](..%2Fscreenshots%2Fngrok_-_Inspect.png)

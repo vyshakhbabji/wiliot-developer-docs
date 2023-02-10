@@ -1,5 +1,5 @@
 {
-  "name": "demos",
+  "name": "wiliot-demo-webhooks-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

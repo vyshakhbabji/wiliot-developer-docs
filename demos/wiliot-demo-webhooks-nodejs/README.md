@@ -1,8 +1,8 @@
-# Sample App to demonstrate working of Webhooks for Wiliot
+# Sample App to demonstrate working of Webhooks Connection for Wiliot
 
 ## Overview
 
-This sample app demonstrates how to use Wiliot webhooks to receive events from Wiliot devices. 
+This sample app demonstrates how to use Wiliot webhooks to receive events from Wiliot Cloud Platform.
 The app is written in Node.js and uses the Express framework. It also uses the [ngrok](https://ngrok.com/) tool to generate a webhook URL.
 
 ## Prerequisites
@@ -16,10 +16,10 @@ The app is written in Node.js and uses the Express framework. It also uses the [
 
 1. Clone this repository to your local machine.
 
-2. Change directory to demos/wiliot-demo-webhooks
+2. Change directory to demos/wiliot-demo-webhooks-nodejs
 
 ```bash
-$ cd demos/wiliot-demo-webhooks
+$ cd demos/wiliot-demo-webhooks-nodejs
 ```
 
 3. Run the following command to install the dependencies:
@@ -53,7 +53,7 @@ Started Server....
 App is listening at http://localhost:8080
 ```
 
-6. Copy the webhook url from the output and use it in the [setting-up-webhook-connection](setting-up-webhook-connection.md) process.
+6. Copy the webhook url from the output and use it in the [setting-up-webhook-connection](webhooks/Setting-up-webhook-connection.md) process.
 
 7. Open the ngrok dashboard at http://localhost:4040/inspect/http to inspect the events sent to your webhook url.
 

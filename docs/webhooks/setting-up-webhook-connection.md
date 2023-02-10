@@ -8,7 +8,7 @@ First you need to create a Webhook URL and then you need to register this URL wi
 Login to https://platform.wiliot.com/ using your Wiliot credentials.  If you don't have a Wiliot account, 
 you can create one by clicking on the "Create One" button.
 
-![Login-Wiliot.png](screenshots%2FLogin-Wiliot.png)
+![Login-Wiliot.png](..%2Fscreenshots%2FLogin-Wiliot.png)
 
 
 ## Step 2: Click on Connections and Add new button
@@ -16,25 +16,25 @@ you can create one by clicking on the "Create One" button.
 Once you are logged in, click on Connections and then click on Add new button. 
 This will open a new window where you can choose the type of connection you want to create.
 
-![Wiliot-connections.png](screenshots%2FWiliot-connections.png)
+![Wiliot-connections.png](..%2Fscreenshots%2FWiliot-connections.png)
 
 
 ## Step 3: Select Connection Type
 For setting up Webhooks, we will select HTTP as connection type . Add a name for your connection and click Next.
 
-![Wiliot_-_Webhook-Connection-2.png](screenshots%2FWiliot_-_Webhook-Connection-2.png)
+![Wiliot_-_Webhook-Connection-2.png](..%2Fscreenshots%2FWiliot_-_Webhook-Connection-2.png)
 
 Under 'Settings' tab, you can add your Webhook URL. Choose 'POST' as  HTTP Method and 
 and select the events you want to receive.  Click on 'Save' button to save your settings. You can also edit these settings later. 
 
-![Wiliot_Platform-body.png](screenshots%2FWiliot_Platform-body.png)
+![Wiliot_Platform-body.png](..%2Fscreenshots%2FWiliot_Platform-body.png)
 
 ## Step 4: Test Webhook Setup
 
 We provide a simple way to test your Webhook setup.  Under newly created connection, click on  3 to the right of the connection and select 'Test' option.  
 This will send a test event to your Webhook URL.  You can check the event headers and body to verify that the event was sent successfully.
 
-![Wiliot_Test.png](screenshots%2FWiliot_Test.png)
+![Wiliot_Test.png](..%2Fscreenshots%2FWiliot_Test.png)
 
 Here is an example of a test event sent to a Webhook URL:
 
